@@ -1,6 +1,8 @@
+import { Quote } from 'lucide-react'
+
 export default function TestimonialsSection() {
   return (
-    <section id="testimonials" className="bg-white py-20">
+    <section id="testimonials" className="bg-white py-20 text-black">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Con la confianza de empresas innovadoras</h2>
@@ -10,6 +12,7 @@ export default function TestimonialsSection() {
         </div>
         <div className="grid gap-8 md:grid-cols-2">
           <div className="rounded-xl border-l-4 border-[#00a99d] bg-white p-8 shadow">
+            <Quote className="mb-4 h-6 w-6 text-[#038dff]" />
             <p className="mb-6 text-lg italic">
               "scoreUp ha revolucionado nuestro proceso de suscripción. Hemos visto una reducción del 25% en los impagos."
             </p>
@@ -22,6 +25,7 @@ export default function TestimonialsSection() {
             </div>
           </div>
           <div className="rounded-xl border-l-4 border-[#00a99d] bg-white p-8 shadow">
+            <Quote className="mb-4 h-6 w-6 text-[#038dff]" />
             <p className="mb-6 text-lg italic">
               "Una plataforma que entiende la economía moderna. La integración fue simple y los resultados hablan por sí solos."
             </p>

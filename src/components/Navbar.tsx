@@ -26,7 +26,7 @@ export function Navbar() {
           </li>
         </ul>
 
-        <a href="/#cta" className="rounded-lg bg-[#00a99d] px-4 py-2 font-bold text-white">Solicitar una Demo</a>
+        <a href="/#cta" className="rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white">Solicitar una Demo</a>
       </nav>
     </header>
   )

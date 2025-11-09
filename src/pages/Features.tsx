@@ -1,13 +1,13 @@
 export default function Features() {
   return (
-    <section className="py-8">
+    <section className="py-8 text-black">
       <div className="mx-auto max-w-[1100px] px-4">
-        <h2 className="text-2xl font-semibold">Funcionalidades</h2>
+        <h2 className="text-2xl font-semibold text-black">Funcionalidades</h2>
         <ul className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
-          <li className="list-none rounded-lg border border-white/20 px-4 py-3">Enrutamiento con React Router</li>
-          <li className="list-none rounded-lg border border-white/20 px-4 py-3">Componentes reutilizables (Navbar, Layout)</li>
-          <li className="list-none rounded-lg border border-white/20 px-4 py-3">Estructura clara de páginas</li>
-          <li className="list-none rounded-lg border border-white/20 px-4 py-3">Estilos simples y responsivos</li>
+          <li className="list-none rounded-lg border border-white/20 px-4 py-3 text-black">Enrutamiento con React Router</li>
+          <li className="list-none rounded-lg border border-white/20 px-4 py-3 text-black">Componentes reutilizables (Navbar, Layout)</li>
+          <li className="list-none rounded-lg border border-white/20 px-4 py-3 text-black">Estructura clara de páginas</li>
+          <li className="list-none rounded-lg border border-white/20 px-4 py-3 text-black">Estilos simples y responsivos</li>
         </ul>
       </div>
     </section>

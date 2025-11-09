@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className=" text-neutral-900 bo">
+    <section className="bg-[#f8f9fa] text-black">
       <div className="mx-auto max-w-7xl px-4 py-20 text-center md:py-28">
         <h1 className="text-balance text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
           Una nueva dimensión del análisis de crédito.
@@ -11,7 +11,7 @@ export default function Hero() {
           de crédito más inteligentes y rápidas.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-        <button className="bg-[#00a99d] text-white font-bold px-10 py-3 rounded-md">Saber más</button>
+        <button className="bg-[#038dff] text-white font-bold px-10 py-3 rounded-md">Saber más</button>
         </div>
       </div>
     </section>
