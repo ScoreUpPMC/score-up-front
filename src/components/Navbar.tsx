@@ -10,23 +10,23 @@ export function Navbar() {
 
         <ul className="flex gap-8">
           <li>
-            <a href="/#features" className="text-black transition-colors hover:text-[#00a99d]">Características</a>
+            <a href="/features" className="text-black transition-colors hover:text-[#038dff]">Características</a>
           </li>
           <li>
-            <a href="/#how-it-works" className="text-black transition-colors hover:text-[#00a99d]">Cómo Funciona</a>
+            <a href="/how-it-works" className="text-black transition-colors hover:text-[#038dff]">Cómo Funciona</a>
           </li>
           <li>
-            <a href="/#testimonials" className="text-black transition-colors hover:text-[#00a99d]">Testimonios</a>
+            <a href="/testimonials" className="text-black transition-colors hover:text-[#038dff]">Testimonios</a>
           </li>
           <li>
-            <a href="/#pricing" className="text-black transition-colors hover:text-[#00a99d]">Precios</a>
+            <a href="/pricing" className="text-black transition-colors hover:text-[#038dff]">Precios</a>
           </li>
           <li>
-            <a href="/#contact" className="text-black transition-colors hover:text-[#00a99d]">Contacto</a>
+            <a href="/contact" className="text-black transition-colors hover:text-[#038dff]">Contacto</a>
           </li>
         </ul>
 
-        <a href="/#cta" className="rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white">Solicitar una Demo</a>
+        <a href="/demo" className="rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white">Solicitar una Demo</a>
       </nav>
     </header>
   )

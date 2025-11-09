@@ -1,6 +1,8 @@
 import { Mail, Phone, DollarSign, PlayCircle } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 export default function ContactSection() {
+  const navigate = useNavigate()
   return (
     <section id="contact" className="py-20 text-black">
       <div className="mx-auto max-w-7xl px-6">
@@ -10,7 +12,13 @@ export default function ContactSection() {
         </div>
         <div className="grid gap-8 md:grid-cols-2">
           <div className="rounded-xl bg-white p-8 shadow">
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+            <form
+              className="space-y-4"
+              onSubmit={(e) => {
+                e.preventDefault()
+                navigate('/thank-you')
+              }}
+            >
               <div>
                 <label className="mb-1 block text-sm font-medium" htmlFor="name">Nombre</label>
                 <input id="name" name="name" type="text" required className="w-full rounded-lg border border-black/10 bg-neutral-50 px-3 py-2" placeholder="Su nombre" />

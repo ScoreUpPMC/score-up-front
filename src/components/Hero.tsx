@@ -11,7 +11,8 @@ export default function Hero() {
           de crédito más inteligentes y rápidas.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-        <button className="bg-[#038dff] text-white font-bold px-10 py-3 rounded-md">Saber más</button>
+          <a href="/demo" className="rounded-full bg-[#038dff] px-6 py-3 font-semibold text-white shadow-sm transition hover:brightness-105">Solicitar una Demo</a>
+          <a href="/pricing" className="rounded-full border border-neutral-300 bg-white px-6 py-3 font-semibold text-black transition hover:border-neutral-400">Ver Precios</a>
         </div>
       </div>
     </section>

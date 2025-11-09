@@ -7,7 +7,7 @@ export default function CtaSection() {
           Programe una demostración personalizada para ver cómo scoreUp puede ayudar a su negocio a crecer mientras minimiza el riesgo.
         </p>
         <a
-          href="/#contact"
+          href="/demo"
           className="inline-block rounded-lg bg-[#038dff] px-10 py-4 text-xl font-bold text-white shadow-lg transition hover:brightness-105"
         >
           Comience Ahora

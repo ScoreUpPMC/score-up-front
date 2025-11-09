@@ -2,7 +2,7 @@ import { FileSpreadsheet, Brain, TrendingUp } from 'lucide-react'
 
 export default function HowItWorksSection() {
   return (
-    <section id="how-it-works" className="py-20 text-black">
+    <section id="how-it-works" className="py-20 text-black bg-[#f8f9fa]">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold text-black/90 md:text-4xl">Cómo Funciona</h2>

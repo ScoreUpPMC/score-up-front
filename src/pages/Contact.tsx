@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom'
+
 export default function Contact() {
+  const navigate = useNavigate()
   return (
     <section className="py-8 text-black">
       <div className="mx-auto max-w-[1100px] px-4">
@@ -6,7 +9,13 @@ export default function Contact() {
         <p className="mt-2 text-black/60">
           ¿Tienes preguntas? Escríbenos y te responderemos pronto.
         </p>
-        <form className="mt-4 grid max-w-[560px] gap-3" onSubmit={(e) => e.preventDefault()}>
+        <form
+          className="mt-4 grid max-w-[560px] gap-3"
+          onSubmit={(e) => {
+            e.preventDefault()
+            navigate('/thank-you')
+          }}
+        >
           <div className="grid gap-1.5">
             <label htmlFor="name">Nombre</label>
             <input
