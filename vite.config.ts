@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Required for GitHub Pages under /score-up-front/ so assets resolve correctly
+  base: '/score-up-front/',
   plugins: [
     react({
       babel: {
