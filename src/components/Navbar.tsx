@@ -1,11 +1,13 @@
 import { NavLink } from 'react-router-dom'
+import logo from 'src/assets/logoScoreUp.png'
+
 
 export function Navbar() {
   return (
     <header className="navbar border-b border-black/10 bg-white sticky top-0">
       <nav className="mx-auto flex max-w-[1100px] items-center justify-between px-4  ">
         <NavLink to="/" className="text-lg font-bold text-black">
-        <img className="w-35 h-18 object-contain" src={`${import.meta.env.BASE_URL}/logoScoreUp.png`} alt="ScoreUp" />
+        <img className="w-35 h-18 object-contain" src={logo} alt="ScoreUp" />
 
         </NavLink>
 
