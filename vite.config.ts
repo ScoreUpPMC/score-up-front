@@ -5,8 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Required for GitHub Pages under /score-up-front/ so assets resolve correctly
-  base: './',
+  // Dynamic base: Vercel at root '/', GitHub Pages under repo subpath
+  base: process.env.VERCEL === '1' ? '/' : '/score-up-front/',
   plugins: [
     react({
       babel: {
