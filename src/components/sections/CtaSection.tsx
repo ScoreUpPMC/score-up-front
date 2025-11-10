@@ -8,7 +8,7 @@ export default function CtaSection() {
         </p>
         <a
           href="/demo"
-          className="inline-block rounded-lg bg-[#038dff] px-10 py-4 text-xl font-bold text-white shadow-lg transition hover:brightness-105"
+          className="inline-block w-full rounded-lg bg-[#038dff] px-10 py-4 text-center text-xl font-bold text-white shadow-lg transition hover:brightness-105 sm:w-auto"
         >
           Comience Ahora
         </a>

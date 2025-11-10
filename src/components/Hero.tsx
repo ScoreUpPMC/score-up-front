@@ -10,9 +10,9 @@ export default function Hero() {
           para obtener una visión holística de la salud financiera de sus clientes y tome decisiones
           de crédito más inteligentes y rápidas.
         </p>
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          {/* <a href="/demo" className="rounded-full bg-[#038dff] px-6 py-3 font-semibold text-white shadow-sm transition hover:brightness-105">Solicitar una Demo</a> */}
-          <a href="/pricing" className="bg-[#038dff] rounded-full border border-neutral-300 px-6 py-3 font-semibold text-white transition hover:border-neutral-400">Ver Precios</a>
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+          <a href="/demo" className="w-full rounded-full bg-[#038dff] px-6 py-3 text-center font-semibold text-white shadow-sm transition hover:brightness-105 sm:w-auto">Solicitar una Demo</a>
+          <a href="/pricing" className="w-full rounded-full border border-neutral-300 bg-white px-6 py-3 text-center font-semibold text-black transition hover:border-neutral-400 sm:w-auto">Ver Precios</a>
         </div>
       </div>
     </section>
