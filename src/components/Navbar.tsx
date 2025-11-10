@@ -11,23 +11,23 @@ export function Navbar() {
 
         <ul className="flex gap-8">
           <li>
-            <a href="/features" className="text-black transition-colors hover:text-[#038dff]">Características</a>
+            <NavLink to="/features" className="text-black transition-colors hover:text-[#038dff]">Características</NavLink>
           </li>
           <li>
-            <a href="/how-it-works" className="text-black transition-colors hover:text-[#038dff]">Cómo Funciona</a>
+            <NavLink to="/how-it-works" className="text-black transition-colors hover:text-[#038dff]">Cómo Funciona</NavLink>
           </li>
           <li>
-            <a href="/testimonials" className="text-black transition-colors hover:text-[#038dff]">Testimonios</a>
+            <NavLink to="/testimonials" className="text-black transition-colors hover:text-[#038dff]">Testimonios</NavLink>
           </li>
           <li>
-            <a href="/pricing" className="text-black transition-colors hover:text-[#038dff]">Precios</a>
+            <NavLink to="/pricing" className="text-black transition-colors hover:text-[#038dff]">Precios</NavLink>
           </li>
           <li>
-            <a href="/contact" className="text-black transition-colors hover:text-[#038dff]">Contacto</a>
+            <NavLink to="/contact" className="text-black transition-colors hover:text-[#038dff]">Contacto</NavLink>
           </li>
         </ul>
 
-        <a href="/demo" className="rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white">Solicitar una Demo</a>
+        <NavLink to="/demo" className="rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white">Solicitar una Demo</NavLink>
       </nav>
     </header>
   )

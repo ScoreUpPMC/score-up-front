@@ -14,7 +14,7 @@ const ThankYouPage = lazy(() => import('./pages/ThankYou'))
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Suspense fallback={<div className="py-8 text-center">Cargando...</div>}>
         <Routes>
           <Route element={<MainLayout />}>
