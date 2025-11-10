@@ -6,7 +6,7 @@ import logo from '../assets/logoScoreUp.png'
 export function Navbar() {
   const [open, setOpen] = useState(false)
   return (
-    <header className="navbar border-b border-black/10 bg-white sticky top-0">
+    <header className="navbar sticky top-0 z-50 border-b border-black/10 bg-white">
       <nav className="mx-auto flex max-w-[1100px] items-center justify-between px-4 py-2">
         <NavLink to="/" className="text-lg font-bold text-black">
           <img className="w-35 h-18 object-contain" src={logo} alt="ScoreUp" />
@@ -47,7 +47,7 @@ export function Navbar() {
 
       {/* Mobile panel */}
       {open && (
-        <div className="border-t border-neutral-200 bg-white md:hidden">
+        <div className="border-t border-neutral-200 bg-white shadow-md md:hidden">
           <div className="mx-auto max-w-[1100px] px-4 py-3">
             <nav className="grid gap-3">
               <NavLink to="/features" className="py-2" onClick={() => setOpen(false)}>Características</NavLink>
