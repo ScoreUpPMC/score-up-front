@@ -50,11 +50,11 @@ export function Navbar() {
         <div className="border-t border-neutral-200 bg-white shadow-md md:hidden">
           <div className="mx-auto max-w-[1100px] px-4 py-3">
             <nav className="grid gap-3">
-              <NavLink to="/features" className="py-2" onClick={() => setOpen(false)}>Características</NavLink>
-              <NavLink to="/how-it-works" className="py-2" onClick={() => setOpen(false)}>Cómo Funciona</NavLink>
-              <NavLink to="/testimonials" className="py-2" onClick={() => setOpen(false)}>Testimonios</NavLink>
-              <NavLink to="/pricing" className="py-2" onClick={() => setOpen(false)}>Precios</NavLink>
-              <NavLink to="/contact" className="py-2" onClick={() => setOpen(false)}>Contacto</NavLink>
+              <NavLink to="/features" className="py-2 text-black transition-colors hover:text-[#038dff]" onClick={() => setOpen(false)}>Características</NavLink>
+              <NavLink to="/how-it-works" className="py-2 text-black transition-colors hover:text-[#038dff]" onClick={() => setOpen(false)}>Cómo Funciona</NavLink>
+              <NavLink to="/testimonials" className="py-2 text-black transition-colors hover:text-[#038dff]" onClick={() => setOpen(false)}>Testimonios</NavLink>
+              <NavLink to="/pricing" className="py-2 text-black transition-colors hover:text-[#038dff]" onClick={() => setOpen(false)}>Precios</NavLink>
+              <NavLink to="/contact" className="py-2 text-black transition-colors hover:text-[#038dff]" onClick={() => setOpen(false)}>Contacto</NavLink>
               <NavLink
                 to="/demo"
                 className="mt-2 inline-flex w-full items-center justify-center rounded-lg bg-[#038dff] px-4 py-2 font-bold text-white"
